@@ -1,0 +1,456 @@
+﻿
+<html>
+<head>
+    <style>
+
+        .noline {
+            text-decoration: none !important;
+        }
+
+        .dvPassTemplate {
+            padding-right: 10px;
+            font-size: 15px;
+            border: solid 1px gray;
+        }
+
+
+
+        .dvDeletedPass {
+            text-decoration: line-through;
+            font-weight: bold;
+            color: darkred;
+        }
+
+        .dvNewPass {
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div style='float:right;direction:rtl'>
+
+        <div class="col-md-12" id="dvSendMail">
+            <div style="font-size: 16px; font-weight: bold">אל תחנת מוניות קניון אשדוד</div>
+            <div style="font-size: 16px; font-weight: bold">מאת פז בית זיקוק אשדוד</div>
+            <br>
+
+            <table style="width:95%;">
+                <tbody>
+                    <tr>
+                        <td valign="top">
+                            <div style="" id="dvPizur">
+                                <div style="font-size: 15px; font-weight: bold; text-decoration: underline">תאריך 16.07.22   <span style="font-weight: bold">צהרים פיזור</span></div>
+
+
+                                <br>
+                                <div style="font-weight: bold">קרית עקרון</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">יגאל גלפרין</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-4669586</span>,
+                                    <span class="@ClassPass">שבזי 30 א/</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">קרית עקרון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">גדרה</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">שלומי שרביט</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-9070284</span>,
+                                    <span class="@ClassPass">פינס 11/</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גדרה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">גן יבנה</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">גיא דרזי</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-3374790</span>,
+                                    <span class="@ClassPass">הדגן 8/4</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גן יבנה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">שלומי אוחנה</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-4969499</span>,
+                                    <span class="@ClassPass">זלמן שליין 22/4</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גן יבנה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">איתי ביבי</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-2470029</span>,
+                                    <span class="@ClassPass">החציר 6/1</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גן יבנה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">גן יבנה</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">אמיר קלינגר</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-8232824</span>,
+                                    <span class="@ClassPass">חשמונאים 37/6</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גן יבנה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">אשקלון   אשקלון מרכז</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">ירמיהו אבשלום</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">053-7270579</span>,
+                                    <span class="@ClassPass">דובב 23/</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">יעקב עטייה</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-7788831</span>,
+                                    <span class="@ClassPass">אלי סיני 3/</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">יורי לוצקי</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">053-7778689</span>,
+                                    <span class="@ClassPass">אייר 19/3</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">אשקלון   אשקלון מרכז</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">יניב ברקוביץ</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">052-4475420</span>,
+                                    <span class="@ClassPass">הרב יחיא ערוסי 1/5</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">יוסי קאז</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-6446394</span>,
+                                    <span class="@ClassPass">הציונות  ברנע 86/27</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">אביחי כהן</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">052-6786070</span>,
+                                    <span class="@ClassPass">מעלות אשר 12/5</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">אשקלון   אשקלון מרכז</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">שמעון עזרא</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-6862722</span>,
+                                    <span class="@ClassPass">בלפור 25/16</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">תל אביב</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">משה בן משה</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-7345110</span>,
+                                    <span class="@ClassPass">טירת צבי 4/10</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">תל אביב - יפו</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+                            </div>
+
+
+                        </td>
+                        <td style="width:10%"></td>
+                        <td valign="top">
+                            <div style="" id="dvIsuf">
+                                <div style="font-size: 15px; font-weight: bold; text-decoration: underline">תאריך 16.07.22   <span style="font-weight: bold">לילה איסוף</span></div>
+
+
+                                <br>
+                                <div style="font-weight: bold">יבנה   ראשון מזרח</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">משה שגיא קידר</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">052-6065767</span>,
+                                    <span class="@ClassPass">סטפן וייז 11/16</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">ראשון לציון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">יוסי אביג</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">058-4103115</span>,
+                                    <span class="@ClassPass">האלמוג 2/</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">יבנה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">איגור ברקין</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-7754138</span>,
+                                    <span class="@ClassPass">אז"ר 14/</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">ראשון לציון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">גן יבנה</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">רון וולודרסקי</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-3488908</span>,
+                                    <span class="@ClassPass">החרוב 17/1</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גן יבנה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">מאור טובול</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-5261727</span>,
+                                    <span class="@ClassPass">היורה 17/2</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גן יבנה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">שמעון רביבו</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-6761388</span>,
+                                    <span class="@ClassPass">המלקוש 8/1</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גן יבנה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">גן יבנה</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">יוסי מור</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-8580819</span>,
+                                    <span class="@ClassPass">התאנה 5 ב'/</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גן יבנה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">אשקלון   אשקלון מרכז</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">עדי ונונו</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-3877326</span>,
+                                    <span class="@ClassPass">עין נטפים 10/2</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">מקסים בוזגלו</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-2173615</span>,
+                                    <span class="@ClassPass">כל ישראל חברים 18/</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">אלכסנדר אולצ'ין</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-8659625</span>,
+                                    <span class="@ClassPass">משה קול 2/13</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">אשקלון   אשקלון מרכז</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">אלירז איבגי</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-6808954</span>,
+                                    <span class="@ClassPass">מעלה הגת 20/2</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">ברהנו מנגיסטו</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-7443520</span>,
+                                    <span class="@ClassPass">מנחם בגין 14/10</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">דימיטרי גינזבורג</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">052-4336495</span>,
+                                    <span class="@ClassPass">עין עבדת 7/1</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">אשקלון   אשקלון מרכז</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">אלכסיי טטריאטניקוב</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-7156374</span>,
+                                    <span class="@ClassPass">מעלה הגת 6/18</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">אביי בזה</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-2354229</span>,
+                                    <span class="@ClassPass">מפל התנור 16/</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">נתנאל אליאס</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">050-7471132</span>,
+                                    <span class="@ClassPass">תירוש א' 17/20</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">אשקלון   אשקלון מרכז</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">22:45</span>.
+                                    <span class="@ClassPass">עמית שוקרון</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-7712833</span>,
+                                    <span class="@ClassPass">מעלה הגת 8/6</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">אשקלון</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+
+                                <br>
+                                <div style="font-weight: bold">גדרה</div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="dvDeletedPass">04:45</span>.
+                                    <span class="dvDeletedPass">עמיר בריגה</span>,
+                                    <span style="font-weight: bold" class="dvDeletedPass">050-5914010</span>,
+                                    <span class="dvDeletedPass">נוף ים 28/</span>,
+                                    <span style="font-weight: bold" class="dvDeletedPass">גדרה</span>
+                                    <span class="dvDeletedPass noline">- בוטל</span>
+                                </div>
+
+                                <div class="dvPassTemplate">
+
+                                    <span style="font-weight: bold" class="@ClassPass">04:45</span>.
+                                    <span class="@ClassPass">יצחק זרח</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">054-5854057</span>,
+                                    <span class="@ClassPass">הר חרמון 6/11א /</span>,
+                                    <span style="font-weight: bold" class="@ClassPass">גדרה</span>
+                                    <span class="@ClassPass noline"></span>
+                                </div>
+                            </div>
+
+
+                        </td>
+
+                    </tr>
+
+
+
+                </tbody>
+            </table>
+
+
+        </div>
+        <div class="col-md-12" style="text-align: left">
+        </div>
+        <div class="col-md-12 dvMessageRed" id="dvErrorSendMail">
+
+            <br><br><font style='color:red;'>מייל זה הינו אוטמטי ולא ניתן להשבה!</font>
+        </div>
+</body>
+<br>
+</html>

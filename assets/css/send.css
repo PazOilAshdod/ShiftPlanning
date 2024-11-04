@@ -1,0 +1,83 @@
+
+
+.break {
+    page-break-before: always;
+   
+}
+/*.breakAfter {
+    page-break-after: always;
+}
+*/
+.maslulTitle {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+    .searchClass {
+        background: green;
+        color: white;
+        font-weight: bold;
+        border: solid 1px white;
+        border-radius: 10px;
+    }
+
+
+    .nolineDeleted {
+        font-weight: bold;
+        color: darkred;
+    }
+
+    .nolineNew {
+        font-weight: bold;
+        color: green;
+    }
+
+.dvPassTemplate {
+   
+    margin: 10px;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+
+    .dvDeletedPass {
+        text-decoration: line-through;
+        font-weight: bold;
+        color: darkred;
+    }
+
+    .dvNewPass {
+        font-weight: bold;
+        color: green;
+    }
+
+    .vertical-alignment-helper {
+        display: table;
+        height: 50%;
+        width: 100%;
+        pointer-events: none;
+    }
+
+    .vertical-align-center {
+        /* To center vertically */
+        display: table-cell;
+        vertical-align: middle;
+        pointer-events: none;
+    }
+
+    .taximodal-content {
+        /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+        width: 70%;
+        max-width: inherit; /* For Bootstrap 4 - to avoid the modal window stretching 
+    full width */
+        height: inherit;
+        /* To center horizontally */
+        margin: 0 auto;
+        pointer-events: all;
+    }
+
+    .taximodal-body {
+        height: 550px;
+        overflow: auto;
+    }

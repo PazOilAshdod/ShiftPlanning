@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+<head>
+    <title class="area">סידור עבודה</title>
+    <style>
+    
+      .area
+      {
+        border:solid 1px #9999ff;
+        border-radius:10px;
+        width:150px;
+        background:#9999ff;
+        float:right;
+        margin:5px;
+        padding:10px; 
+        text-align:center;
+        font-size:24px;
+        cursor:default;
+        font-weight:bold;
+          
+      }
+      
+      
+      .dvTitle
+      {
+        
+        padding:10px; 
+        font-size:30px;
+        color:#9999ff;
+              
+      }
+
+
+    </style>
+   <!-- <script src="../assets/js/Generic.js" type="text/javascript" charset="Windows-1255"></script>
+    <script type="text/javascript" src="../assets/js/lib/jquery-1.11.min.js"></script>-->
+    <script type="text/javascript">
+
+
+
+        
+
+//        $(document).ready(function () {
+
+
+
+
+//        });
+
+
+
+        function DisplayAreaAssign(OrgUnitCode) {
+          //  alert();
+          location.href = "Assign.aspx?OrgUnitCode=" + OrgUnitCode + "&SearchDate=" + getDateTimeNowFormat();
+          //  location.href = "https://bazawebsites.paz.local/shiftplaning/Assign/Assign.aspx?OrgUnitCode=" + OrgUnitCode + "&SearchDate=" + getDateTimeNowFormat();
+
+
+        }
+
+
+        function getDateTimeNowFormat() {
+            var d = new Date();
+            var curr_date = d.getDate();
+            var curr_month = d.getMonth() + 1; //Months are zero based
+            var curr_year = d.getFullYear();
+
+            if (curr_date < 10) {
+                curr_date = '0' + curr_date
+            }
+            if (curr_month < 10) {
+                curr_month = '0' + curr_month
+            }
+
+
+            return curr_date + "." + curr_month + "." + curr_year;
+
+        }
+
+
+//        function GetAreaName(OrgUnit) {
+//            if (OrgUnit == "20000058") return "אזור א'";
+//            if (OrgUnit == "20000059") return "אזור ב'";
+//            if (OrgUnit == "20000060") return "FCC";
+//            if (OrgUnit == "20000301") return "אלקילציה";
+//            if (OrgUnit == "20000055") return "תנועות דלק";
+//            if (OrgUnit == "20000016") return "כיבוי";
+//            if (OrgUnit == "20000057") return "ניפוק";
+//            if (OrgUnit == "20000017") return "מעבדה";
+//            if (OrgUnit == "20000011") return "בטחון";
+//            if (OrgUnit == "20000018") return "מפקחים";
+
+//        }
+
+
+
+         
+
+
+
+    </script>
+</head>
+<body>
+
+   <div class="dvTitle">שלום רב, אנא בחר אזור להצגת סידור עבודה!</div>
+
+  <div class="area" onclick="DisplayAreaAssign('20000058')">אזור א'</div> 
+  <div class="area" onclick="DisplayAreaAssign('20000059')">אזור ב'</div> 
+  <div class="area" onclick="DisplayAreaAssign('20000060')">FCC</div> 
+  <div class="area" onclick="DisplayAreaAssign('20000301')">אלקילציה</div>
+  <div class="area" onclick="DisplayAreaAssign('20000055')">תנועות דלק</div> 
+  <div class="area" onclick="DisplayAreaAssign('20000016')">כיבוי</div> 
+  <div class="area" onclick="DisplayAreaAssign('20000057')">ניפוק</div> 
+  <div class="area" onclick="DisplayAreaAssign('20000017')">מעבדה</div> 
+  
+  <div class="area" onclick="DisplayAreaAssign('20000011')">בטחון</div> 
+  <div class="area" onclick="DisplayAreaAssign('20000018')">מפקחים</div> 
+ 
+
+ 
+</body>
+</html>
