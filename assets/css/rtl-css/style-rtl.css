@@ -10666,3 +10666,20 @@ font-size :18px;
 .spCapsula {
     background: #800080 !important;
 }
+
+
+
+.hadrchaBg {
+    background: #b300b3;
+    color: white;
+   
+}
+
+
+.hadrchaBg:hover {
+        background: #800080;
+        color: white;
+        
+    }
+
+   

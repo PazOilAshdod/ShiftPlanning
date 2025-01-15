@@ -18,6 +18,7 @@
         var CityValueCode;
         var CityValueDesc;
         var DayConfigureWithShift;
+        var IsShowEmpNo = false;
 
         $(document).ready(function () {
 
@@ -489,7 +490,7 @@
                             var EmpHtml = $("#dvEmpTemplate").html();
                             EmpHtml = EmpHtml.replace(/@HasotId/g, SelectedHasot[j].HasotId);
                             EmpHtml = EmpHtml.replace(/@EmpNo/g, SelectedHasot[j].EmpNo);
-                            EmpHtml = EmpHtml.replace(/@EmpName/g, SelectedHasot[j].EmpName);
+                            EmpHtml = EmpHtml.replace(/@EmpName/g, SelectedHasot[j].EmpName + (IsShowEmpNo ? (" " + SelectedHasot[j].EmpNo) : ""));
                             EmpHtml = EmpHtml.replace(/@EmpCity/g, SelectedHasot[j].City);
                             EmpHtml = EmpHtml.replace(/@CityCode/g, SelectedHasot[j].CityCode);
                             EmpHtml = EmpHtml.replace(/@CarTypeId/g, SelectedHasot[j].CarTypeId);
@@ -524,7 +525,7 @@
                             var EmpHtml = $("#dvEmpDeletedTemplate").html();
 
                             EmpHtml = EmpHtml.replace(/@EmpNo/g, SelectedHasot[j].EmpNo);
-                            EmpHtml = EmpHtml.replace(/@EmpName/g, SelectedHasot[j].EmpName);
+                            EmpHtml = EmpHtml.replace(/@EmpName/g, SelectedHasot[j].EmpName + (IsShowEmpNo ? (" " + SelectedHasot[j].EmpNo) : ""));
                             EmpHtml = EmpHtml.replace(/@EmpCity/g, SelectedHasot[j].City);
                             EmpHtml = EmpHtml.replace(/@CityCode/g, SelectedHasot[j].CityCode);
 
@@ -571,7 +572,7 @@
                 var EmpHtml = $("#dvEmpDeletedTemplate").html();
 
                 EmpHtml = EmpHtml.replace(/@EmpNo/g, DeletedHasot[j].EmpNo);
-                EmpHtml = EmpHtml.replace(/@EmpName/g, DeletedHasot[j].EmpName);
+                EmpHtml = EmpHtml.replace(/@EmpName/g, DeletedHasot[j].EmpName + (IsShowEmpNo ? (" " + DeletedHasot[j].EmpNo) : ""));
                 EmpHtml = EmpHtml.replace(/@EmpCity/g, DeletedHasot[j].City);
                 EmpHtml = EmpHtml.replace(/@CityCode/g, DeletedHasot[j].CityCode);
 
