@@ -224,7 +224,12 @@
             //    $(submenu).find("a").click();
             //  }, 1000);
 
-            if (UserId != "18" && UserId != "3" && UserId != "11" && UserId != "1" && UserId != "5" && UserId != "6" && UserId != "7" && UserId != "8")
+            // רשימת UserId מקודדת-קשיח - הוחלפה בסינון לפי RoleId
+            //if (UserId != "18" && UserId != "3" && UserId != "11" && UserId != "1" && UserId != "5" && UserId != "6" && UserId != "7" && UserId != "8")
+            //    $("#LIhistori").hide();
+
+            // דו"ח היסטוריית שינויים מוצג רק למשתמשים עם RoleId קטן או שווה ל-3
+            if (!(parseInt(RoleId, 10) <= 3))
                 $("#LIhistori").hide();
 
             $("body").show();
